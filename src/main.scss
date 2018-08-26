@@ -1,0 +1,16 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+@import 'scss/variables';
+
+.welcome-title {
+	&--center {
+		text-align: center;
+	}
+	&--right {
+		text-align: right;
+	}
+}
