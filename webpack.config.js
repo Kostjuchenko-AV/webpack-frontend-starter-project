@@ -8,7 +8,7 @@ const autoprefixer = require('autoprefixer');
 module.exports = function(env, argv) {
 	return {
 		mode: argv.mode === 'production' ? 'production' : 'development',
-		devtool: argv.mode === 'production' ? 'cheap-eval-source-map' : 'source-map',
+		devtool: argv.mode === 'production' ? '' : 'source-map',
 		entry: './src/index.js',
 		output: {
 			path: path.resolve(__dirname, 'dist'),
